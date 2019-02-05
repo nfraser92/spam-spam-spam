@@ -6,7 +6,6 @@ let emails = customers.map(customer => customer.contacts.email)
     console.log(emails)
 let emailList = emails.reduce((currentEmail, nextEmail) =>
 `${currentEmail} ${nextEmail}`,
-""
 )
 
 console.log(emailList)
